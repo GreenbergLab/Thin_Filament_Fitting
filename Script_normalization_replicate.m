@@ -88,6 +88,6 @@ sum_sq_min
 %The normalized fluorescence values and corresponding myosin concentrations
 %are then output to the workspace. The normalized values for each technical
 %replicate should be pooled to form a pooled data set, used for the global fitting.
-nocal_norm = [s1_nocal y1./best_fit_params(6)]; %Normalized data for nocal
-cal_norm = [s1_cal y2./best_fit_params(7)]; %Normalized data for cal
-midcal_norm = [s1_midcal y3./best_fit_params(8)]; %Normalized data for midcal
+nocal_norm = [x1 y1./best_fit_params(6)]; %Normalized data for nocal
+cal_norm = [x2 y2./best_fit_params(7)]; %Normalized data for cal
+midcal_norm = [x3 y3./best_fit_params(8)]; %Normalized data for midcal
